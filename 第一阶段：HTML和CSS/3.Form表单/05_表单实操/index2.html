@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--快捷创建 table>tr*12>td*2-->
+    <table align="center">
+        <tr>
+            <td align="right">姓名：</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="right">密码：</td>
+            <td><input type="password" name="" id=""></td>
+        </tr>
+        <tr>
+            <td align="right">确认密码：</td>
+            <td><input type="password" name="" id=""></td>
+        </tr>
+        <tr>
+            <td align="right">密码提示问题：</td>
+            <td>
+                <select>
+                    <option value="title">请选择一个问题</option>
+                    <option value="name">我的名字</option>
+                    <option value="sex">我的性别</option>
+                    <option value="age">我的年龄</option>
+                </select>
+
+            </td>
+        </tr>
+        <tr>
+            <td align="right">密码提示答案：</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td align="right">性别：</td>
+            <td>
+                <form action="">
+                    <input type="radio" name="sex" value="nan"> 男
+                    <br>
+                    <input type="radio" name="sex" value="nv"> 女
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">年龄：</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td align="right">籍贯：</td>
+            <td>
+                <select>
+                    <option value="title">请选择</option>
+                    <option value="name">北京</option>
+                    <option value="sex">上海</option>
+                    <option value="age">长春</option>
+                </select>
+                省/直辖市
+                <select>
+                    <option value="title">请选择</option>
+                    <option value="name">太原</option>
+                    <option value="sex">武汉</option>
+                    <option value="age">南京</option>
+                </select>
+                市
+
+            </td>
+        </tr>
+        <tr>
+            <td align="right">爱好：</td>
+            <td>
+                <form action="" method="get">
+                    <input type="checkbox" name="vehicle" id="sw"> 上网
+                    <input type="checkbox" name="vehicle" id="movice"> 看电影
+                    <input type="checkbox" name="vehicle" id="stduy"> 学习
+
+                </form>
+
+            </td>
+        </tr>
+        <tr>
+            <td align="right">个人介绍：</td>
+            <td>
+                <form name="input" action="url" method="get">
+
+                    <textarea rows="10" cols="30"></textarea>
+                </form>
+
+            </td>
+        </tr>
+        <tr>
+            <td align="right">上传头像：</td>
+            <td>
+                <form>
+
+                    <input type="file" name="img">
+                </form>
+            </td>
+        </tr>
+        <tr align="right">
+            <td colspan="2" align="center">
+                    <input type="submit" value="提交">
+                    <input type="reset" value="重置">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
